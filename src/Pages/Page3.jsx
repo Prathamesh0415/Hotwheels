@@ -18,14 +18,12 @@ function Page3() {
         <div className=" text-[37.69px] font-normal text-[#EE382B]">
             Where Legends Live
         </div>
-        
         </div>
         <div className='flex justify-center'>
             <button className="mt-8 flex items-center gap-2 border-2 border-red-500 text-white px-10 py-3 rounded-full hover:bg-red-600 transition-all duration-300 text-2xl">
                 Explore <FiArrowRight />
             </button>
         </div>
-        
     </div>
   )
 }
