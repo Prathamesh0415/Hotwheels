@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <nav
-      className="w-full h-24 flex items-center px-8 fixed"
+      className="w-full h-24 flex items-center px-8 "
       style={{
         backgroundImage: "url('/assets/Navbar.png')",
         backgroundSize: "cover",
