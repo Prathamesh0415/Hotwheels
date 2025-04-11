@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <nav
-      className="w-full h-24 flex items-center px-8 "
+      className="w-full h-24 flex items-center px-8 irish-grover-regular leading-[100%] font-normal"
       style={{
         backgroundImage: "url('/assets/Navbar.png')",
         backgroundSize: "cover",
@@ -16,7 +16,7 @@ function Navbar() {
           <a
             key={index}
             href="#"
-            className="bg-[#EE382B] text-yellow-300 font-bold px-10 py-3 rounded-full text-sm hover:bg-red-700 transition duration-200"
+            className="bg-[#EE382B] text-[#FFDE00] font-bold px-10 py-3 rounded-full  hover:bg-red-700 transition duration-200 text-2xl"
           >
             {item}
           </a>
@@ -34,14 +34,14 @@ function Navbar() {
           <a
             key={index}
             href="#"
-            className="bg-[#EE382B] text-yellow-300 font-bold px-10 py-3 rounded-full text-sm hover:bg-red-700 transition duration-200"
+            className="bg-[#EE382B] text-[#FFDE00] font-bold px-10 py-3 rounded-full hover:bg-red-700 transition duration-200 text-2xl"
           >
             {item}
           </a>
         ))}
 
         {/* User Icon */}
-        <div className="w-8 h-8 bg-red-600 rounded-full"></div>
+        <div className="w-8 h-8 bg-[#EE382B] rounded-full"></div>
       </div>
     </nav>
   )
