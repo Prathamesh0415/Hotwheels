@@ -4,7 +4,7 @@ function Page5() {
     return (
         <div className="relative min-h-screen bg-[#0a3b5c] overflow-hidden ">
           {/* Main heading */}
-          <h1 className="text-center text-yellow-400 text-6xl md:text-7xl font-bold pt-16 pb-8">
+          <h1 className="text-center text-yellow-400 text-6xl md:text-7xl font-bold pt-16 pb-8 luckiest-guy-regular">
             Events and Challenges
           </h1>
     
