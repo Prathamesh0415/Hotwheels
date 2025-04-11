@@ -10,7 +10,7 @@ function Bestseller() {
         backgroundPosition: "center",
       }}
     >
-        <div className="text-white font-extrabold text-7xl">
+        <div className="text-white font-extrabold text-7xl luckiest-guy-regular">
             BESTSELLERS
         </div>
     </div>

@@ -28,7 +28,7 @@ function Page2() {
           </div>
           <div className="absolute bottom-6 w-full flex justify-center">
             <button
-              className="bg-red-600 text-yellow-300 font-bold text-xl py-4 px-14"
+              className="bg-[#DD392F] text-[#FACD32] font-bold text-[47.14px] py-1 px-10 irish-grover-regular"
               style={{
                 clipPath:
                   "polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%)",
@@ -53,7 +53,7 @@ function Page2() {
           </div>
           <div className="absolute bottom-[30px] w-full flex justify-center">
             <button
-              className="bg-red-600 text-yellow-300 font-bold text-xl py-4 px-14"
+              className="bg-[#DD392F] text-[#FACD32] font-bold text-[47.14px] py-1 px-10 irish-grover-regular"
               style={{
                 clipPath:
                   "polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%)",
@@ -78,7 +78,7 @@ function Page2() {
           </div>
           <div className="absolute bottom-6 w-full flex justify-center">
             <button
-              className="bg-red-600 text-yellow-300 font-bold text-xl py-4 px-14"
+              className="bg-[#DD392F] text-[#FACD32] font-bold text-[47.14px] py-1 px-10 irish-grover-regular"
               style={{
                 clipPath:
                   "polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%)",
