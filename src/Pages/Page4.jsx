@@ -15,12 +15,10 @@ function Page4() {
       background: "rgba(0, 0, 0, 0.4)",
     }}
   >
-  
-        
         <div className='flex flex-col justify-center items-center h-[60%]'>
-            <div className='font-bold text-[146.6px] text-white pt-60 leading-[100%] '>Build Your Garage</div>
-            <div className='text-white text-[39.85px] font-bold px-20 text-center leading-[120%] mt-20'>Welcome to the ultimate Hot Wheels customization zone. Design your dream garage, pack it with your favorite cars, and show the world your style. Whether you're a collector, a racer, or a creator—this is your personal turf.</div>
-            <div className='flex flex-row justify-between gap-40 mt-20 '>
+            <div className='font-bold text-[146.6px] text-white pt-60 leading-[100%] luckiest-guy-regular'>Build Your Garage</div>
+            <div className='text-white text-[39.85px] font-bold px-20 text-center leading-[120%] mt-20 archivo-narrow-font'>Welcome to the ultimate Hot Wheels customization zone. Design your dream garage, pack it with your favorite cars, and show the world your style. Whether you're a collector, a racer, or a creator—this is your personal turf.</div>
+            <div className='flex flex-row justify-between gap-40 mt-30 '>
                 <img src="../assets/car41.png" alt="" />
                 <img src="../assets/car42.png" alt="" />
                 <img src="../assets/car43.png" alt="" />
