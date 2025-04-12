@@ -4,10 +4,10 @@ import Newsletter from './Newsletter'
 export default function Footer() {
   return (
     <div>
-        <footer className="bg-blue-950 text-gray-300 py-12 px-6">
+        <footer className="bg-[#0B1D3A] text-gray-300 py-12 px-6">
             <Newsletter />
             <div className="max-w-6xl mx-auto">
-        <hr className="border-gray-700 mb-8" />
+        <hr className="border-[#DCDCDC] border-[1px_0px_1px_0px] border-solid mb-8" />
         
         {/* Brand links */}
         <div className="mb-8">
@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
         </div>
         
-        <hr className="border-gray-700 mb-8" />
+        <hr className="border-[#DCDCDC] border-[1px_0px_1px_0px] border-solid mb-8" />
         
         {/* Footer navigation */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
@@ -86,9 +86,11 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+
+
         
         {/* Copyright section */}
-        <div className="mt-12 text-center text-sm text-gray-500">
+        <div className="mt-12 text-center text-sm text-gray-500 border-t-[#DCDCDC] border-t border-solid">
           <p>© {new Date().getFullYear()} Mattel. All Rights Reserved.</p>
         </div>
       </div>
