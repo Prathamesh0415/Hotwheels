@@ -1,9 +1,9 @@
 import React from "react";
 import { FiArrowRight } from "react-icons/fi";
-import { useScramble } from "../hooks/useScramble"; // import hook
+import { useScramble } from "../hooks/useScramble"; 
 
 const Page1 = () => {
-  const scrambledText = useScramble("UNLEASH THE SPEED", 50); // use hook
+  const scrambledText = useScramble("UNLEASH THE SPEED", 50); 
 
   return (
     <div
