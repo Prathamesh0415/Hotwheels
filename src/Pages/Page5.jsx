@@ -26,6 +26,15 @@ function Page5() {
         />
       </div>
 
+      {/* NEW: Middle green car - only on small screens */}
+      <div className="block sm:hidden absolute top-[340px] left-1/2 transform -translate-x-1/2 w-72 h-40 rotate-[10deg]">
+        <img
+          src="../assets/car52.png"
+          alt="Green muscle car"
+          className="w-full h-full object-contain"
+        />
+      </div>
+
       {/* Other cars - only show on larger screens */}
       {/* Blue car bottom left */}
       <div className="hidden sm:block w-[623.4px] h-[623.4px] absolute top-[400px] -left-20 transform -rotate-12">
