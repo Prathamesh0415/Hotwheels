@@ -7,27 +7,28 @@ const Page1 = () => {
 
   return (
     <div
-      className="w-full h-screen "
+      className="w-full h-screen relative"
       style={{
         backgroundImage: "url('/assets/Page1.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
+      {/* Gradient - only visible on md and up */}
       <div
-        className="absolute right-0 top-24 w-1/2 h-full"
+        className="absolute right-0 top-0 w-1/2 h-full hidden md:block"
         style={{
           background:
             "linear-gradient(to left, rgba(0, 102, 255, 0.4), transparent)",
         }}
       ></div>
 
-      <div className="absolute top-35 right-11">
+      {/* Large screen content */}
+      <div className="absolute top-35 right-11 hidden md:block">
         <div className="relative w-fit">
           <h1 className="font-extrabold text-[#FFDE00] drop-shadow-lg tracking-wider bebas-neue-regular text-[148px]">
             {scrambledText}
           </h1>
-
           <h1 className="absolute -top-1 -left-1 font-extrabold text-[#DD392F] drop-shadow-lg tracking-wider bebas-neue-regular text-[148px]">
             {scrambledText}
           </h1>
@@ -42,6 +43,22 @@ const Page1 = () => {
             Explore <FiArrowRight />
           </button>
         </div>
+      </div>
+
+      {/* Small screen content */}
+      <div className="md:hidden flex flex-col items-center justify-center h-full text-center px-4">
+        <div className="relative w-fit">
+          <h1 className="font-extrabold text-[#FFDE00] drop-shadow-lg tracking-wider bebas-neue-regular text-4xl sm:text-5xl">
+            {scrambledText}
+          </h1>
+          <h1 className="absolute -top-1 -left-1 font-extrabold text-[#DD392F] drop-shadow-lg tracking-wider bebas-neue-regular text-4xl sm:text-5xl">
+            {scrambledText}
+          </h1>
+        </div>
+
+        <button className="mt-8 flex items-center gap-2 bg-red-600 border-2 border-red-500 text-white px-8 py-2 rounded-full hover:bg-red-700 transition-all duration-300 text-lg archivo-narrow-font">
+          Explore <FiArrowRight />
+        </button>
       </div>
     </div>
   );
