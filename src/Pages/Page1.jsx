@@ -24,7 +24,7 @@ const Page1 = () => {
       ></div>
 
       {/* Large screen content */}
-      <div className="absolute top-35 right-11 hidden md:block">
+      <div className="absolute top-2 right-11 hidden md:block">
         <div className="relative w-fit">
           <h1 className="font-extrabold text-[#FFDE00] drop-shadow-lg tracking-wider bebas-neue-regular text-[148px]">
             {scrambledText}
