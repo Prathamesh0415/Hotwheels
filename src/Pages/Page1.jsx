@@ -23,8 +23,8 @@ const Page1 = () => {
         }}
       ></div>
 
-      {/* Large screen content */}
-      <div className="absolute top-2 right-11 hidden md:block">
+      {/* Large screen content (lg and up) */}
+      <div className="absolute top-2 right-11 hidden lg:block">
         <div className="relative w-fit">
           <h1 className="font-extrabold text-[#FFDE00] drop-shadow-lg tracking-wider bebas-neue-regular text-[148px]">
             {scrambledText}
@@ -43,6 +43,22 @@ const Page1 = () => {
             Explore <FiArrowRight />
           </button>
         </div>
+      </div>
+
+      {/* Medium screen content only (md) */}
+      <div className="hidden md:flex lg:hidden flex-col items-center justify-center h-full text-center px-4">
+        <div className="relative w-fit">
+          <h1 className="font-extrabold text-[#FFDE00] drop-shadow-lg tracking-wider bebas-neue-regular text-6xl sm:text-7xl">
+            {scrambledText}
+          </h1>
+          <h1 className="absolute -top-1 -left-1 font-extrabold text-[#DD392F] drop-shadow-lg tracking-wider bebas-neue-regular text-6xl sm:text-7xl">
+            {scrambledText}
+          </h1>
+        </div>
+
+        <button className="mt-8 flex items-center gap-2 border-2 border-red-500 text-white px-10 py-3 rounded-full hover:bg-red-600 transition-all duration-300 text-xl archivo-narrow-font">
+          Explore <FiArrowRight />
+        </button>
       </div>
 
       {/* Small screen content */}
